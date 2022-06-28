@@ -1,8 +1,8 @@
 ### TASKS
 
-* [ ] Produzir o design da página (Canvas);
-* [ ] Produzir as imagens e gifs (Photoshop);
-* [ ] Encontrar áudios do projeto;
+* [X] Produzir o design da página (Canvas);
+* [X] Produzir as imagens e gifs (Photoshop);
+* [X] Encontrar áudios do projeto;
 * [ ] Fazer download da API necessária;
 * [ ] Produzir HTML da página;
 * [ ] Estilizar a página no CSS;
