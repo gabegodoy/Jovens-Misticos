@@ -1,3 +1,50 @@
+main{
+  max-width: 80vw;
+  height: 93vh;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__container{
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 40vw;
+  height: 93vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.background__cover{
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  width: 40vw;
+  height: 93vh;
+  
+  background-color: white;
+  
+  opacity: .5;
+}
+
+
+.logo__image{
+  width: 70%;
+  z-index: 999;
+}
+
+
+
+
+
 .about__image{
   display: none;
 }
