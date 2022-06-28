@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
   
   <link rel="icon" type="image/png" href="assets/icons/star--icon.png">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pompiere" />
@@ -19,22 +20,34 @@
   <main>
     <section class="logo">
       <div class="logo__container">
-        <img src="assets/images/jovens-misticos__logo.png" alt="Logotipo Jovens Místicos">
+        <img src="assets/images/jovens-misticos__logo.png" alt="Logotipo Jovens Místicos" class="logo__image">
+        <div class="background__cover"></div>
       </div>
     </section>
 
     <section class="about">
       <img src="assets/icons/sound-on__icon.png" alt="Botão para desligar o som" class="about__image about__image--on">
       <img src="assets/icons/sound-off__icon.png" alt="Botão para ligar o som" class="about__image about__image--off">
-      <about__info>
+      <div class="about__info"> 
         <h2 class="about__tittle">sobre nós</h2>
         <p class="about__subtitle">A Jovens Místicos é uma aplicação recreativa que busca trazer motivação, incentivo e reflexão para o seu dia.</p>
         <a href="" class="about__button">Eu sou um jovem místico!</a>
-      </about__info>
+      </div>
     </section>
   </main>
 
-
+  <footer class="footer__container">
+    <div class="footer__personal">
+      <p class="footer__personal__name">Gabriel Godoy</p>
+      <p class="footer__personal__profession">Front-End Developer</p>
+    </div>
+    <div class="footer__media"></div>
+    <ul class="footer__media__list">
+      <li><a href="https://github.com/gabegodoy"><img src="assets/icons/github.png" alt="GitHub Logo"></a></li>
+      <li><a href="https://www.linkedin.com/in/gabecgodoy/"><img src="assets/icons/linkedin.png" alt="LinkedIn Logo"></a></li>
+      <li><a href="https://gabegodoy.github.io/portfolio/"><img id="portfolio__image" src="assets/icons/me-home.png" alt="Portfolio Logo"></a></li>
+    </ul>
+  </footer>
 
 </body>
 </html>

@@ -1,12 +1,12 @@
 .footer__container{
   box-sizing: border-box;
-  color: white;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3c1361;
+  background-color: var(--pink);
   padding: 0 6rem;
-  height: 5vh;
+  height: 7vh;
 
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -25,6 +25,7 @@
 }
 
 .footer__personal__profession{
+  color: white;
   font-weight: 200;
   font-size: 1.2rem;
 }
