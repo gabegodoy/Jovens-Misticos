@@ -68,6 +68,8 @@
   margin-top: 1.5rem;
 }
 
+
+
 .about__button{
   font-size: 2rem;
   font-weight: 400;
@@ -89,4 +91,46 @@
   font-size: 2.5rem;
   background-color: #DE94C0;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1280px){
+  html{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  html{
+    font-size: 10px;
+  }
+
+  .home__container{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .background__cover, .logo__container{
+    width: 100vw;
+    height: 30vh;
+  }
+
+  .home__container{
+    height: 90vh;
+  }
+
+  .logo__image{
+    width: 50%;
+  }
+
+  .about{
+    align-self: flex-start;
+  }
+
+  .about__info{
+    width: 80vw;
+  }
+
+  .about__subtitle{
+    text-align: justify;
+  }
 }

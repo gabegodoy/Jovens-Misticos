@@ -35,7 +35,7 @@
   width: 30%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 3.125rem;
   list-style: none;
 }
@@ -57,7 +57,35 @@ margin-top: -1.5rem;
 }
 
 @media screen and (max-width: 1000px){
-  .footer__container{
+/*   .footer__container{
     display: none;
+  } */
+}
+
+@media screen and (max-width: 500px){
+
+  .footer__container{
+    box-sizing: border-box;
+
+    height: 10vh;
+    padding: 1rem 0;
+
+    flex-direction: column;
+    gap: 1.5rem;
+
+    color: white;
   }
+
+  .footer__personal{
+    order: 10;
+  }
+}
+
+
+@media screen and (max-height: 750px){
+
+  .footer__container{
+    height: fit-content;
+  }
+
 }
