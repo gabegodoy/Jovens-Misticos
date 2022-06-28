@@ -1,0 +1,6 @@
+.loading__container{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}

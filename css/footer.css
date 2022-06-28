@@ -1,4 +1,11 @@
 .footer__container{
+  position: absolute;
+  width: 100vw;
+  
+  bottom: 0;
+
+  z-index: 10;
+
   box-sizing: border-box;
   color: black;
   display: flex;
