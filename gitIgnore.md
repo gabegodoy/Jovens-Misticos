@@ -6,8 +6,8 @@
 * [ ] Fazer download da API necessária;
 * [ ] Produzir HTML da página;
     * [X] Home Page;
-    * [ ] Loading Page;
-    * [ ] Quote Page;
+    * [X] Loading Page;
+    * [X] Quote Page;
     * [ ] Forms Page;
 * [ ] Estilizar a página no CSS;
 * [ ] Website Responsivo;
