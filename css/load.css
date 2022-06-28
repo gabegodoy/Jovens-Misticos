@@ -4,3 +4,11 @@
   justify-content: center;
   height: 90vh;
 }
+
+@media screen and (max-width: 500px){
+
+  .loading__container img{
+    width: 25rem;    
+
+  }
+}
