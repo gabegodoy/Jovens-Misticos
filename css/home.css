@@ -17,8 +17,9 @@
   height: 93vh;
   
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .background__cover{
@@ -37,6 +38,11 @@
 .logo__image{
   width: 70%;
   z-index: 999;
+}
+
+.version-description{
+  z-index: 10;
+  font-size: 2rem;
 }
 
 .about__image{
@@ -72,7 +78,7 @@
 
 .about__button{
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
    
   padding: 1rem 1.5rem;
 
