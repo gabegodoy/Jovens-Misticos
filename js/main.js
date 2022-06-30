@@ -29,12 +29,7 @@ function getApi (){
 }
 
 
-/* 
-function getRandomArbitrary(min, max) {
- return Math.random() * (max - min) + min;
-}
-let randomNum;
- */
+/* LOAD SYSTEM */
 
 function load(){
   getApi ();
@@ -47,11 +42,8 @@ function load(){
 }
 
 function loadQuote(){
-  /* randomNum = parseInt(getRandomArbitrary(1, 306)) */
-
   loadPage.style.display = 'none'
   quotePage.style.display = 'flex'
-
 
   quoteText.innerHTML = ''
   quoteAuthor.innerHTML = ''
