@@ -18,7 +18,7 @@ _________________________________________________________________________
 ## PROJECT STATUS: In Progress
 
 #### Project Description
-The 'Jovens Místicos' application, is a web page thar uses the ('QUOTABLE')[https://github.com/lukePeavey/quotable] API to get random phrases from database and print it on the website.
+The 'Jovens Místicos' application, is a web page thar uses the ['QUOTABLE'](https://github.com/lukePeavey/quotable) API to get random phrases from database and print it on the website.
 
 #### Functionality
 In this application it is possible to receive one or more sentences from a well-known thinker.
