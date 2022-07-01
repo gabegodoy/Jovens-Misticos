@@ -32,8 +32,6 @@ function getApi (){
     
 }
 
-//backgroundSound.play()
-backgroundSound.volume = 0.2
 
 /* LOAD SYSTEM */
 
@@ -63,15 +61,22 @@ function loadQuote(){
 soundButton.addEventListener('click', () => {
   soundButton.classList.toggle('sound__button--off')
 
+  
   if (backgroundSound.muted === false){
     backgroundSound.muted = true;
     magicSound.muted = true;
   }
-    
+  
   else if (backgroundSound.muted === true){
     backgroundSound.muted = false;
     magicSound.muted = false;
   } 
-
+  
 })
 
+function playBackgroundMusic (){
+  backgroundSound.play()
+  backgroundSound.volume = 0.2
+}
+
+setInterval(playBackgroundMusic, 50);
