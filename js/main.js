@@ -32,7 +32,7 @@ function getApi (){
     
 }
 
-backgroundSound.play()
+//backgroundSound.play()
 backgroundSound.volume = 0.2
 
 /* LOAD SYSTEM */
@@ -57,10 +57,6 @@ function loadQuote(){
   quoteText.appendChild(document.createTextNode(quote))
   quoteAuthor.appendChild(document.createTextNode(author))
 }
-
-
-/* SOUND SETTINGS */
-
 
 
 /* SOUND BUTTON ON/OFF */
