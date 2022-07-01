@@ -6,7 +6,7 @@ O 'Jovens Místicos' é uma página web que utiliza a API ['QUOTABLE'](https://g
 #### Funcionalidade
 Nesta aplicação é possível receber uma ou mais frases de algum pensador reconhecido.
 
-#### Métodos utilizados
+#### Novos métodos utilizados
 * API JavaScript de livre utilização;
 * Funcionalidades JavaScript de manipulação de áudio;
 
@@ -22,6 +22,6 @@ The 'Jovens Místicos' application, is a web page thar uses the ['QUOTABLE'](htt
 #### Functionality
 In this application it is possible to receive one or more sentences from a well-known thinker.
 
-#### Methodology
+#### New methods
 * JavaScript, free, open source API;
 * JavaScript audio functionality functionalities.
