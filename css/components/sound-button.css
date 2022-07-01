@@ -1,0 +1,24 @@
+.sound__button{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 15;
+
+  width: 4rem;
+  height: 4rem;
+
+  filter: invert(100%);
+  cursor: pointer;
+
+  background-image: url(../../assets/icons/sound-on__icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sound__button--off{
+  background-image: url(../../assets/icons/sound-off__icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

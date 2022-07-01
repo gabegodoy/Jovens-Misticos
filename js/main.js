@@ -1,8 +1,12 @@
 const homePage = document.querySelector('.home__container');
 const loadPage = document.querySelector('.loading__container');
-const quotePage = document.querySelector('.quote__container')
-const quoteText = document.querySelector('.quote__text__sentence')
-const quoteAuthor = document.querySelector('.quote__text__author')
+const quotePage = document.querySelector('.quote__container');
+const quoteText = document.querySelector('.quote__text__sentence');
+const quoteAuthor = document.querySelector('.quote__text__author');
+const soundButton = document.querySelector('.sound__button');
+const backgroundSound = document.querySelector('.background__sound');
+const magicSound = document.querySelector('.magic__sound');
+
 let author;
 let quote;
 
@@ -28,6 +32,8 @@ function getApi (){
     
 }
 
+backgroundSound.play()
+backgroundSound.volume = 0.2
 
 /* LOAD SYSTEM */
 
@@ -44,6 +50,7 @@ function load(){
 function loadQuote(){
   loadPage.style.display = 'none'
   quotePage.style.display = 'flex'
+  magicSound.play()
 
   quoteText.innerHTML = ''
   quoteAuthor.innerHTML = ''
@@ -51,9 +58,24 @@ function loadQuote(){
   quoteAuthor.appendChild(document.createTextNode(author))
 }
 
-function newQuote(){
 
-  
-}
+/* SOUND SETTINGS */
 
+
+
+/* SOUND BUTTON ON/OFF */
+soundButton.addEventListener('click', () => {
+  soundButton.classList.toggle('sound__button--off')
+
+  if (backgroundSound.muted === false){
+    backgroundSound.muted = true;
+    magicSound.muted = true;
+  }
+    
+  else if (backgroundSound.muted === true){
+    backgroundSound.muted = false;
+    magicSound.muted = false;
+  } 
+
+})
 

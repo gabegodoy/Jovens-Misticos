@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/load.css">
   <link rel="stylesheet" href="css/quote.css">
+  <link rel="stylesheet" href="css/components/sound-button.css">
   <link rel="stylesheet" href="css/footer.css">
   
   <link rel="icon" type="image/png" href="assets/icons/star--icon.png">
@@ -30,8 +31,6 @@
     </section>
 
     <section class="about">
-      <img src="assets/icons/sound-on__icon.png" alt="Botão para desligar o som" class="about__image about__image--on">
-      <img src="assets/icons/sound-off__icon.png" alt="Botão para ligar o som" class="about__image about__image--off">
       <div class="about__info"> 
         <h2 class="about__tittle">about us</h2>
         <p class="about__subtitle">'Jovens Místicos' is a recreational app that seeks to bring motivation, encouragement and reflection to your day.</p>
@@ -39,7 +38,6 @@
       </div>
     </section>
   </main>
-
 
   <section class="loading__container">
     <img src="assets/images/shooting-star__loading.gif" alt="Imagem de uma estrela cadente na tela de espera">
@@ -53,6 +51,12 @@
       <h6 class="quote__text__author"></h6>
       <button onclick="load()"><img class="reload__icon" src="assets/icons/reload__icon.svg" alt=""></button>
     </div>
+  </section>
+
+  <section class="sound__button"></section>
+  <section class="audios">
+    <audio loop src="assets/sounds/background-sound.mp3" class="background__sound"></audio>
+    <audio src="assets/sounds/result-magic.mp3" class="magic__sound"></audio>
   </section>
 
   <footer class="footer__container">
